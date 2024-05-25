@@ -1,7 +1,8 @@
 # mdcont
-Creador y gestor de contraseñas 
-Creado por: Arnulfo Degracia | MIDESMIS
-Canal de youtube: MIDESMIS
-Te agradecería la suscripción al canal de youtube.
--------------------------------------------------------------------
-paso 1: dar permisos de ejecución con chmod +xw mdcont.sh
+# MDCONT nace con la finalidad de poder crear contraseñas robustas y administrarlas de forma local.
+# Creado por: Arnulfo Degracia | MIDESMIS
+# Parametros permitidos:
+# ./mdcont -1 : sirve para crear la carpeta segura y el .txt que va a almacenar las contraseñas.
+# ./mdcont -2 : sirve para generar y guardar las contraseñas.
+# ./mdcont -3 : sirve para realizar la busqueda de tus contraseñas guardadas.
+
