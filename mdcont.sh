@@ -25,7 +25,7 @@ echo -e "\t3) Buscar una contraseña"
 function salir(){
 echo -e "\n\n ${redColour}[!] saliendo del programa...\n${endColour}"
 tput cnorm && exit 1
-sleep 5
+sleep 3
 }
 # ------ end exit of program
 
@@ -34,8 +34,11 @@ function crear_archivo(){
 	sudo mkdir .cont
 	echo -e "\nLa carpeta se ha creado de foma oculta con el nombre .cont\n"
 	echo -e "\nCreando el archivo que va a contener las contraseñas\n"
-	sleep 10
+	sleep 5
 	sudo touch .cont/.mdcont.txt
+	sudo chmod 700 .cont
+	sudo chmod 700 ./mdcont.sh
+	sudo chmod 700 .cont/.mdcont.txt
 	echo -e "\t\nLos archivos se han creado con éxito ejecuta el parametro -2 para empezar a generar las contraseñas\n"
 }
 
