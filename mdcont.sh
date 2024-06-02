@@ -137,7 +137,7 @@ cont() {
 
     # Imprimir la ruta del último archivo encontrado
     echo -e "\t\nLa nueva contraseñas se guardo con éxito\n"
-    echo -e "\n>>>>>>>>>>\n Nombre de la plataforma: $plataforma \n Nombre de usuario: $usuario \n Nombre del correo: $correo \n Contraseña creada: $password \n Fecha de cración: $fecha" >> "$ultimoArchivo"
+    echo -e "\n>>>>>>>>>>\n Nombre de la plataforma: $plataforma \n Nombre de usuario: $usuario \n Nombre del correo: $correo \n Contraseña creada: \' $password \' \n Fecha de cración: $fecha" >> "$ultimoArchivo"
     else
     salir
     fi
